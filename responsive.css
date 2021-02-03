@@ -1,0 +1,550 @@
+@media screen and (max-width:1100px){  /*1000px*/
+    /*Nav*/
+    nav{
+        padding-left: 350px;
+    }
+
+    .list__nav{
+        width: 90%;
+    }
+
+    /*Header*/
+
+    header{
+     background-position: center;
+    }
+ 
+    .container{
+        margin: 200px auto 0 auto;
+        width: 60%;
+    }
+
+    .text-header__container{
+        text-align: center;
+    }
+
+    .buttons__text-header{
+        width: 100%;
+        text-align: center;
+     }
+
+    .buttons__text-header button{
+        width: 150px;
+    }
+
+     /*Contenedor 1*/
+
+    .reference{
+         width: 43%;
+         height: 400px;
+    }
+
+    .text__container{
+        width: 43%;
+        height: 400px;
+    }
+
+    .text__container section{
+        width: 250px;
+    }
+
+    .text__container section h1{
+        font-size: 24px;
+        margin-top: 35px;
+    }
+    
+    .text__container section p{
+        font-size: 16px;
+        margin:20px auto 0 auto
+    }
+
+    .text__container section p+p{
+        font-size: 14px;
+    }
+
+    .text__container section button{
+        margin-top: 15px;
+    }
+
+
+
+     /*Contenedor 2*/
+
+    .text__container2{
+        width: 80%;
+    }
+
+     /*Contenedor 3: Medios de comunicación*/
+    .box__container3{
+        width: 90%;
+    }
+
+    .img__box{
+        width: 40%;
+        height: 350px;
+    }
+
+    .img__box .info__img{
+        width: 300px;
+        margin:240px auto 0 auto;
+        padding-bottom: 15px;
+    }
+
+    .img__box .info__img p{
+     font-size: 21px;
+    }
+
+    /*footer*/
+
+    .container4{
+        width: 90%;
+        
+    }
+    /*Card*/
+
+    .card{
+        flex-basis: 60%;
+       
+    }
+
+    .info__card{
+        font-size: 16px;
+    }
+
+
+    /*card2*/
+
+    .card2{
+        flex-basis: 30%;
+        font-size: 14px;
+    }
+
+    /*Servicios*/
+    .services h1{
+        font-size: 18px;
+    }
+    .text__services{
+        font-size: 16px;
+        margin-top: 15px;
+        line-height: 25px;
+    }
+  
+    .menu{
+        margin-top: 10px;
+    }
+
+    .menu h1{
+        font-size: 18px;
+    }
+
+    .text__menu{
+        margin-top: 15px;
+        line-height: 25px;
+    }
+    /*Suscribete*/
+    .subscribe{
+        margin-top: 15px;
+    }
+
+    .subscribe h1{
+        font-size: 18px;
+    }
+
+    .subscribe h1+input{
+        margin-top: 10px;
+    }
+
+    /*formulario*/
+
+    #email{
+        width: 180px;
+        height: 30px;
+    }
+
+    #submit{
+        margin-top: 10px;
+        width: 80px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    #check:checked~ nav{
+        transform: translateX(0);
+        z-index: 100;
+        height: 850px;
+    }
+
+    /* #check:checked~ .container{
+        transform: translateX(100%);
+    } */
+}
+  
+@media screen and (max-width:900px){ /*550px tablets*/
+
+    
+    .logo{
+        z-index: 200;
+    }
+
+    .logo>img{
+        margin-top: 27px;
+        width: 130px;
+        height: 50px;
+    }
+    /*Icono del menu*/
+    #icon-menu{
+        display: block;
+        position: relative;
+        float: right;
+        padding: 35px;
+        color: #f0f0f0;
+        font-size: 25px;
+        z-index: 200;
+    }
+
+    #icon-menu:hover{
+        color: rgb(121, 121, 121);
+        cursor: pointer;
+        transition: all 300ms;
+    }
+
+
+    /*nav*/
+    nav{
+        
+        padding: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        transform: translateX(-100%);
+        transition: all 300ms;
+    }
+
+
+    nav .list__nav{
+        box-sizing: border-box;
+        display: block;
+        position: absolute;
+        z-index: 100;
+        left: 0;
+        top: 100px;
+        background-color: rgb(87, 87, 87);
+        width: 90%;
+        height: 750px;
+
+    }
+
+    .list__nav li{
+        box-sizing: border-box;
+        text-align: left;
+        height: 70px;
+        line-height: 70px;
+        padding: 0;
+        width: 100%;
+    }
+    .list__nav li:hover{
+        border-top: none;  
+        background: rgb(68, 68, 68);
+       
+    }
+    .list__nav li a{
+        margin-left: 20px;
+    }
+
+    
+
+    /*Header*/
+
+    .container{
+    width: 90%;
+    margin: 200px auto auto auto;
+    /* transform: translateX(0);
+    transition: all 300ms; */
+    }
+
+    .text-header__container h1{
+        font-size: 60px;
+    }
+
+    .buttons__text-header{
+        width: 100%;
+        height: 300px;
+    }
+
+    .buttons__text-header button{
+        margin: 0 auto 20px auto;
+        display: block;
+        width: 180px;
+    }
+
+     /*Contenedor 1*/
+    
+    .container1{
+    flex-direction: column;
+    position: relative;
+    }
+
+    .reference{
+        width: 400px;
+        margin: 0 auto 40px auto;
+        
+    }
+    
+    .reference--Image1{
+        background-attachment: scroll;
+    }
+
+    .reference--Image3{
+        background-attachment: scroll;
+        background-position: center;
+    }
+    
+
+    .text__container{
+        width: 400px;
+        margin: 0 auto 40px auto;
+    }
+
+     /*Contenedor 2*/
+
+
+    .text__container2{
+    width: 80%;
+    margin: 50px auto 0 auto;
+    }
+
+    .text__container2 h1{
+    text-align: center;
+    width: 100%;
+    }
+
+    .text__container2 p{
+    margin: auto;
+    text-align: justify;
+    font-size: 16px;
+    }
+
+    .buttons__text-container2{
+    text-align: center;
+    width: 100%;
+    margin: 20px auto 0 auto;
+    }
+
+
+     /*Contenedor 3*/
+    .box__container3{
+        flex-direction: column;
+        align-content: space-around;
+        width: 90%;
+    }
+
+    .img__box{ 
+        width: 400px;
+        ;
+    }
+   
+    /*footer*/
+     .container4{
+         flex-direction: column;
+     }
+    /*card*/
+
+    .card{
+        margin-bottom: 50px;
+    }
+
+    .menu{
+        margin-top: 0;
+    }
+
+    .subscribe{
+        margin-top: 30px;
+    }
+
+
+}
+
+@media screen and (max-width:450px){ /*Se verá bien hasta los 290px aproximadamente*/
+
+
+    .logo{
+        left: 40px;
+    }
+
+
+    .container{
+        width: 100%;
+        
+    }
+ 
+    .text-header__container h1{
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+
+    .text-header__container p{
+        font-size:18px;
+        width: 80%;
+        margin:0 auto 50px auto;
+    }
+
+    .buttons__text-header{
+        width: 80%;
+        margin:auto;
+    }
+
+    .buttons__text-header button{
+        width: 200px;
+        height: 50px;
+        display: block;
+        margin: 0 auto 40px auto;
+    }
+
+    .buttons__text-header button p{
+        font-size: 12px;
+    }
+
+    /*Contenedor 1*/
+    .container1{
+        margin: 50px auto 50px auto;
+    }
+    .reference{
+        width:280px;
+        height: 280px;
+        margin: 0 auto 30px auto;
+    }
+
+    .text__container{
+        width:280px;
+        height: 300px;
+        margin: 0 auto 30px auto;
+        position: relative;
+    }
+
+    .text__container section{
+        width: 220px;
+        position: absolute;
+        left: 25px;
+    }
+
+    .text__container section h1{
+        font-size: 18px;
+        margin: 20px auto 0 auto;
+    }
+
+    .text__container:nth-child(2) section p{
+        margin: 20px auto 0 auto
+    }
+
+    .text__container:nth-child(3) section p{
+        margin: 20px auto 0 auto
+    }
+
+    .text__container section p{
+        font-size: 14px;
+        margin: 12px auto 0 auto;
+
+    }
+
+    .text__container section p+p{
+        font-size: 12px;
+        margin: 5px auto 0 auto;
+    }
+
+    .text__container section button{
+       margin: 10px 0 0 0;
+       width: 90px;
+       height: 25px;
+       font-size: 12px;
+    }
+
+    /*Contenedor 2*/
+ 
+    .text__container2{
+        width: 100%;
+    }
+
+    .text__container2 h1{
+        width: 90%;
+        margin: 0 auto 30px auto;
+        font-size: 24px;
+    }
+
+    .text__container2 p{
+        font-size: 15px;
+    }
+
+    /*Contenedor 3: Medios de comunicacion*/
+
+    .container3 h1{
+        margin: 30px auto 0 auto;
+        width: 90%;
+        font-size: 24px;
+    }
+
+    .box__container3{
+        margin: 30px auto 0 auto;
+        width: 90%;
+    }
+
+    .img__box{
+       width: 250px;
+       height: 250px;
+    }
+
+    .img__box .info__img{
+        width: 220px;
+        margin: 170px auto 0 auto;
+    }
+
+    .img__box .info__img p{
+        font-size: 16px;
+
+    }
+
+    /*footer*/
+
+    .container4{
+        width: 90%;
+        margin:50px auto 50px auto
+    }
+    /*Card*/
+
+    .card{
+        width: 100%;
+    }
+
+    .logo__card{
+        width: 180px;
+        height: 70px;
+    }
+
+    .logo__card>img{
+        width: 170px;
+        height: 60px
+    }
+
+    .info__card{
+        text-align: justify;
+        width: 95%;
+        font-size: 15px;
+    }
+
+    .icons__card{
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    /*Card2*/
+
+    .services{
+        margin-bottom: 20px;
+    }
+
+    .text__services{
+        font-size: 15px;
+    }
+
+    .text__menu{
+        font-size: 15px;
+    }
+}

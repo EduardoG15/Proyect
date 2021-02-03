@@ -1,0 +1,585 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2? family = Montserrat: ital @ 0; 1 & display = swap');
+
+body{
+    font-family:'Source Sans Pro' ,'Montserrat', 'sans-serif';
+}
+/*Barra lateral: icons-fixed*/
+
+.icons-fixed{
+    position: fixed;
+    top: 280px;
+    left:1300px;
+    z-index: 100;
+}
+.icons-fixed a{
+    display: block;
+    color: #808080;
+    margin-bottom: 10px;
+}
+
+
+.icons-fixed a:hover{
+    color:#4999E8;
+    transition: all 300ms;
+}
+
+/*Barra de navegación*/
+
+nav{
+    width: 100%;
+    align-items: center;
+    border-bottom: 1px solid #808080;
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 450px;
+}
+
+/*Icono de menu desplegable*/
+
+#check{
+    display: none;
+}
+
+#icon-menu{
+    display: none;
+}
+
+.logo{
+    position: absolute;
+    left: 70px;
+    box-sizing: border-box;
+    height: 100px;
+    text-align: center;
+    z-index: 100;
+}
+
+.logo>img{
+   width: 200px;
+   height: 80px;
+   margin-top: 10px;
+}
+
+
+.list__nav{
+    width: 80%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    
+}
+
+.list__nav li{
+    box-sizing: border-box;
+    list-style: none;
+    text-align: center;
+    line-height: 85px;
+    padding: 10px;
+    width: repeat(5,1fr);
+    cursor: pointer;
+    height: 100px;
+
+}
+
+.list__nav li:hover{
+    border-top: 5px solid #fff;
+    padding: 5px 10px 10px 10px
+}
+
+
+.list__nav li a{
+    text-decoration: none;
+    color: #C7C7C7;
+}
+
+
+
+/*Encabezado*/
+
+header{
+    background-image: url(imagenes/principal.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 850px;
+    position: relative;
+    
+}
+
+/*Oscurecer el fondo del encabezado*/
+
+header:before{
+    content:'';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.8);
+
+}
+
+/*Texto del encabezado*/
+
+.container{
+    margin: 250px 0 0 150px;
+    position: relative;
+    width: 70%;
+    color: #fff;
+}
+
+
+.text-header__container h1{
+    font-size: 90px;
+    margin-bottom: 15px;
+}
+
+.text-header__container p{
+    font-size: 26px;
+    margin-bottom: 40px;
+}
+
+
+/*Contenedor de botones: encabezado*/
+
+.buttons__text-header{
+    width: 80%;
+    height: 90px;
+    flex-wrap: wrap;
+}
+
+.buttons__text-header button{
+    width: 220px;
+    height: 65px;
+    margin-right: 15px;
+    background-color: transparent;
+    border:2px solid #fff;
+}
+
+.buttons__text-header button p{
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
+
+
+
+/*Contenedor Numero 1- Main*/
+.main{
+    display: block;
+}
+
+.container1{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 90px auto 90px auto;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.reference{
+    width: 45%;
+    height: 560px;
+    margin-bottom: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    
+}
+
+.reference--Image1{
+    background-image: url(imagenes/ciclistas.jpg);
+    background-attachment: fixed;
+}
+
+.reference--Image2{
+    background-image: url(imagenes/atleta1.jpg);
+    background-position: top;
+}
+
+.reference--Image3{
+    background-image: url(imagenes/ciclistas3.jpg);
+    background-attachment: fixed;
+    background-position: -300px;
+}
+
+
+
+.text__container{
+    background-color: #f8f5f5;
+    width: 45%;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.text__container section{
+    width: 300px;
+    margin: auto;
+}
+
+.text__container button{
+    width: 100px;
+    height: 30px;
+    background:#4999E8;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+}
+
+.text__container section h1{
+    text-align: center;
+    background-color: #4999E8;
+    color: #fff;
+    font-size: 32px;
+    margin-top: 60px;
+}
+
+.text__container section p{
+     text-align: justify;
+     font-size: 18px;
+     margin: 30px auto 0 auto;
+} 
+
+.text__container section p+p{
+    font-size: 16px;
+}
+
+.text__container section button{
+    margin-top: 50px;
+}
+
+
+/*Contenedor 2*/
+
+.font{
+    position: relative;
+
+} 
+
+.container2{
+    width: 100%;
+    display: block;
+    background-image: url(imagenes/trotando2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+
+/*Oscurecer el fondo*/
+.container2:before{
+    content:'';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.6);
+
+}
+
+
+.text__container2{
+    margin: 100px 0 0 150px;
+    width: 60%;
+    color: #fff;
+    position: relative;
+}
+
+.text__container2 h1{
+    width: 70%;
+    font-size: 40px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.text__container2 p{
+    width: 80%;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.buttons__text-container2 button{
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    color:#fff;
+    background-color: transparent;
+    border:2px solid #fff;
+    cursor: pointer;
+}
+
+.container2>.text__container2+.text__container2{
+    margin-bottom: 100px;
+}
+
+/*Contenedor 3*/
+
+.container3{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.container3 h1{
+    margin: 100px auto 0 auto;
+    text-align: center;
+    width: 45%;
+    font-size: 40px;
+    background-color:#4999E8;
+    color: #fff;
+}
+
+.box__container3{
+    width: 80%;
+    margin:100px auto 70px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    box-sizing: border-box; 
+}
+
+.img__box{
+    text-align: center;
+    width: 40%;
+    height: 420px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.img__box:before{
+    content:'';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.img__box .info__img{
+    width: 340px;
+    position: relative;
+    margin: 290px auto 0 auto;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 20px;
+
+}
+
+.img__box .info__img p{
+    font-size: 26px;
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: justify;
+}
+
+
+.background1{
+    background-image: url(imagenes/elena-congost.jpg);
+   
+}
+
+.background2{
+    background-image: url(imagenes/hannah-teter.jpg);
+}
+
+.background3{
+    background-image: url(imagenes/Kyrie.Irving.jpg);
+}
+
+.background4{
+    background-image: url(imagenes/Novak.Djokovic.jpg);
+}
+
+.background5{
+    background-image: url(imagenes/Steph.Davis.jpg);
+}
+
+.background6{
+    background-image: url(imagenes/venus.william.jpg);
+}
+
+/*Footer*/
+
+footer{
+    background-color: #1F1F1F;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/*Contenedor 4*/
+
+.container4{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 85%;
+    margin:100px auto 50px auto;
+
+    
+}
+
+/*Sub contenedor: card*/
+
+.card{
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-basis: 50%;
+    color: #fff;
+}
+
+.logo__card{
+    width: 250px;
+    height: 80px;
+}
+
+.logo__card>img{
+    width: 214px;
+    height: 74px;
+}
+
+
+.info__card{
+    text-align: justify;
+    margin-top: 35px;
+    width: 420px;
+    line-height: 30px;
+
+}
+
+.icons__card{
+    margin-top: 60px;
+    width: 420px;
+    border-bottom: 1px solid #808080;
+    padding-bottom: 50px;
+}
+
+.icons__card a{
+    margin-right: 5px;
+    color: #808080;
+}
+
+.icons__card a:hover{
+    color:#4999E8;
+    transition: all 300ms;
+}
+
+.extra__card{
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+
+
+/*card 2*/
+.card2{
+    flex-basis: 40%;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services{
+    box-sizing: border-box;
+    flex-basis: 50%;
+}
+
+.services h1{
+    padding: 0 0 10px 0;
+    width: 190px;
+    font-size: 20px;
+    border-bottom: 1px solid #808080;
+}
+.text__services{
+    margin-top: 40px;
+    line-height: 30px;
+}
+
+.menu{
+    box-sizing: border-box;
+    flex-basis: 50%;
+}
+
+.menu h1{
+    padding: 0 0 10px 0;
+    width: 190px;
+    font-size: 20px;
+    border-bottom: 1px solid #808080;
+}
+
+.text__menu{
+    font-size: 16px;
+    margin-top: 40px;
+    line-height: 30px;
+}
+
+
+.subscribe{
+    flex-basis: 100%;
+}
+
+.subscribe h1{
+    padding: 0 0 10px 0;
+    width: 190px;
+    font-size: 20px;
+    border-bottom: 1px solid #808080;
+}
+
+.subscribe form input{
+    margin-top: 30px;
+}
+
+/*formulario: footer*/
+
+#email{
+    width: 250px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+}
+
+#submit{
+    width: 115px;
+    height: 40px;
+    background-color: #C7C7C7;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background: #4999E8;
+    transition: all 300ms;
+}
+
+
+
